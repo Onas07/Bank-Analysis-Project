@@ -43,7 +43,7 @@ Germany	      2508
 Spain	      2476
 RESULT:France has the highest customer distribution,Germany and Spain has similar values with Germany slightly higher.
 
-[!('Geography distribution of customers.png')]
+![('Geography distribution of customers.png')]
 
 
 GENDER DISTRIBUTION	
@@ -52,7 +52,7 @@ Female	4541
 Male	5456
 RESULT:Male customers have a higher percentage of population(55%) than female customers(45%).
 
-[!('Gender distribution of customers.png')]
+![('Gender distribution of customers.png')]
 
 AGE DISTRIBUTION	
 Age	CustomerId

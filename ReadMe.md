@@ -134,7 +134,7 @@ Spain	  -   651.32
 
 RESULT:Based on the above analysis,by average Germany and Spain have the highest credit scores, followed closely by France
 
-![]('Geography distribution of credit score.png')
+![]('Geography_distribution_ of credit score.png')
 
 
 WHICH GENDER HAS THE HIGHEST BALANCE?

@@ -27,34 +27,34 @@ OBJECTIVES
 DATA DICTIONARY
 
          Field	                 Description
-0	CustomerId           	 A unique identifier for each customer
+0	CustomerId -          	 A unique identifier for each customer
 
-1          Surname              	   The customer's last name
-
-
-2	CreditScore         	A numerical value representing the customer's the customer's credit score.
+1.  Surname   -           	   The customer's last name
 
 
-3	Geography	            The country where the customer resides (France,Spain,Germany).
+2.	CreditScore -        	A numerical value representing the customer's the customer's credit score.
 
 
-4	Gender	                The customer's gender (Male or Female)
+3.	Geography	 -           The country where the customer resides (France,Spain,Germany).
 
-5	Age	                    The customer's age
 
-6	Tenure	                The number of years the customer has been with the bank
+4.	Gender	-                The customer's gender (Male or Female)
 
-7	Balance              	The customer's account balance
+5.	Age	    -                The customer's age
 
-8	NumOfProducts	        The number of bank products the customer uses e.g(savings account,credit card)
+6.	Tenure	-                The number of years the customer has been with the bank
 
-9	HasCrCard	            Whether the customer has a credit card (1 = yes,0=no)
+7.	Balance -             	The customer's account balance
 
-10	IsActiveMember       	Whether the customer is an active member (1 =yes,0=no)
+8.	NumOfProducts	-        The number of bank products the customer uses e.g(savings account,credit card)
 
-11	EstimatedSalary	        The estimated salary of the customer
+9.	HasCrCard	 -           Whether the customer has a credit card (1 = yes,0=no)
 
-12	Exited               	Whether the customer has churned (1 = yes, 0 = no)
+10.	IsActiveMember -      	Whether the customer is an active member (1 =yes,0=no)
+
+11.	EstimatedSalary	        The estimated salary of the customer
+
+12.	Exited               	Whether the customer has churned (1 = yes, 0 = no)
 
 INSIGHTS
 
@@ -65,13 +65,13 @@ Distribution of customers based on gender,geography and age:
 
 GEOGRAPHY DISTRIBUTION	       	
 
-Geography    CustomerId	
+Geography  -  CustomerId	
 
-France	      5013
+France	   -   5013
 
-Germany	      2508
+Germany	   -   2508
 
-Spain	      2476
+Spain	    -  2476
 
 RESULT:France has the highest customer distribution,Germany and Spain has similar values with Germany slightly higher.
 
@@ -80,11 +80,11 @@ RESULT:France has the highest customer distribution,Germany and Spain has simila
 
 GENDER DISTRIBUTION	
 
-Gender	CustomerId
+Gender-	CustomerId
 
-Female	4541
+1-Female	4541
 
-Male	5456
+2-Male	5456
 
 RESULT:Male customers have a higher percentage of population(55%) than female customers(45%).
 
@@ -94,23 +94,29 @@ RESULT:Male customers have a higher percentage of population(55%) than female cu
 
 AGE DISTRIBUTION	
 
-Age	CustomerId
+Age	-CustomerId
 
-37	478
+37	-478
 
-38	477
+38	- 477
 
-35	474
+35	- 474
 
-36	456
+36	-456
 
-34	447
+34-	447
 ...	...
-92	2
-82	1
-83	1
-85	1
-88	1
+92	- 2
+
+82 -	1
+
+83-	1
+
+85-	1
+
+88-	1
+
+
 RESULT:The highest number of customers is between ages 34-37 years, while age 88-92 have the least population.
 
 ![](Age distribution of customers.png)
@@ -118,13 +124,13 @@ RESULT:The highest number of customers is between ages 34-37 years, while age 88
 
 WHICH GEOGRAPHICAL LOCATION HAS THE HIGHEST CREDIT SCORE?	
 
-Geography   CreditScore	
+Geography -  CreditScore	
 
-France	     649.69
+France	 -    649.69
 
-Germany	     651.48
+Germany	 -    651.48
 
-Spain	     651.32
+Spain	  -   651.32
 
 RESULT:Based on the above analysis,by average Germany and Spain have the highest credit scores, followed closely by France
 
@@ -133,11 +139,11 @@ RESULT:Based on the above analysis,by average Germany and Spain have the highest
 
 WHICH GENDER HAS THE HIGHEST BALANCE?
 
-Gender	Balance
+Gender -	Balance
 
-Female	343,579,164.57
+Female -	343,579,164.57
 
-Male	421,018,185.46
+Male -	421,018,185.46
 
 RESULT: The male gender has a higher account balance compared to the females.
 
@@ -146,15 +152,19 @@ RESULT: The male gender has a higher account balance compared to the females.
 
 WHAT IS THE ESTIMATED SALARY BY GENDER AND GEOGRAPHY?		                  
 
-Gender	Geography	           Estimated Salary
+Gender-	      Geography	 -          Estimated Salary
 
-Female	France	                 225,034,644.94
-        Germany             	122,118,396.55
-         Spain                	109,699,443.04
+Female  -    	France	       -          225,034,644.94
+             
+              Germany       -      	    122,118,396.55
+             
+               Spain         -       	109,699,443.04
 
-Male	France	                 275,779,717.12
-        Germany             	131,475,024.69
-         Spain	                136,514,723.55
+Male	   -      France	      -             275,779,717.12
+                
+        -         Germany      -       	131,475,024.69
+                
+         -        Spain	       -         136,514,723.55
 
 RESULT:Male customers have higher estimated salaries than female customers in all geographical locations.
 
@@ -169,9 +179,9 @@ CREDIT CARD DISTRIBUTION
 
 HasCrCard
 
-Yes    5149
+Yes -   5149
 
-No     4848
+No  -   4848
 
 RESULT:From our analysis,slightly more than half of the customers have credit cards ,however there is a relatively small difference between credit card owners and non owners.
 
@@ -182,17 +192,28 @@ RESULT:From our analysis,slightly more than half of the customers have credit ca
 NUMBER OF PRODUCTS DISTRIBUTION BY TENURE	
 
 Tenure	NumOfProducts
-2	        1047
-1	        1035
-7	        1028
-8	        1025
-5	        1012
-3	        1008
-4	        989
-9	        984
-6	        966
-10	        490
-0	        413
+
+2	 -       1047
+
+1	 -       1035
+
+7	   -     1028
+
+8	    -    1025
+
+5	   -     1012
+
+3	   -     1008
+
+4	    -    989
+
+9	   -     984
+
+6	     -   966
+
+10	   -     490
+
+0	    -    413
 
 RESULT:New customers (0years) have the lowest number of products(413),while customers with one and two years tenure own the highest number of products
 
@@ -201,35 +222,36 @@ RESULT:New customers (0years) have the lowest number of products(413),while cust
 
 CREDIT CARD DISTRIBUTION BY TENURE	
 
-Tenure	HasCrCard
+Tenure	   HasCrCard
 
-2	     1047
+2	  -   1047
 
-1	     1035
+1	 -    1035
 
-7	     1028
+7	  -   1028
 
-8	     1025
+8	  -   1025
 
-5	     1012
+5	 -    1012
 
-3	     1008
+3	  -   1008
 
-4	     989
+4	   -  989
 
-9	     984
+9	   -  984
 
-6	     966
+6	  -   966
 
-10	     490
+10	  -   490
 
-0	     413
+0	  -   413
 
 RESULT:
 
 1. Highest demand for credit card are from customers (1-2years):This suggests that new customers are more likely to apply for credit cards possibly due to initial financial needs,building credit history and attractive promotional offers
 
 2. There is a decline in credit card ownership among long term customers:This could indicate-customer's loyalty and stability,reducing the need for new cards,changing financial priorities(e.g mortgage or family).
+
 
 3. potential churn or dissatifcation with existing credit cards.
 
@@ -245,9 +267,9 @@ COUNT OF ACTIVE MEMBERS
 
 IsActiveMember
 
-Yes    5149
+Yes   - 5149
 
-No     4848
+No   -  4848
 
 RESULT:The number of active members(5149) is slightly higher than non active members(4848).The difference is approximately 301
 
@@ -256,29 +278,29 @@ RESULT:The number of active members(5149) is slightly higher than non active mem
 
 ACTIVE MEMBER DISTRIBUTION BY TENURE	
 
-Tenure	IsActiveMember
+Tenure	- IsActiveMember
 
-2	     1047
+2	  -   1047
 
-1	     1035
+1	  -   1035
 
-7	     1028
+7	  -   1028
 
-8	     1025
+8	  -   1025
 
-5	     1012
+5	  -   1012
 
-3	     1008
+3	  -   1008
 
-4	     989
+4	  -   989
 
-9	     984
+9	   -  984
 
-6	     966
+6	  -   966
 
-10	     490
+10	  -   490
 
-0	     413
+0	   -  413
 
 RESULT:
 
@@ -296,29 +318,29 @@ RESULT:
 
 BALANCE DISTRIBUTION BY TENURE	
 
-Tenure	Balance
+Tenure	    Balance
 
-1	81304822.67
+1	-       81304822.67
 
-2	80527928.54
+2 -      	80527928.54
 
-8	79885013.21
+8	-       79885013.21
 
-3	78225722.99
+3	-      78225722.99
 
-7	77667080.19
+7 -     	77667080.19
 
-5	77361612.23
+5 -     	77361612.23
 
-9	75337543.31
+9 -    	  75337543.31
 
-4	73244740.73
+4 -     	73244740.73
 
-6	71828419.11
+6 -      	71828419.11
 
-10	36224476.96
+10	-       36224476.96
 
-0	32989990.09
+0 -     	32989990.09
 
 RESULT:
 
@@ -339,27 +361,27 @@ CREDIT SCORE DISTRIBUTION BY AGE GRADE
 
 Age	 CreditScore
 
-38	313702
+38 -	313702
 
-37	311550
+37 -	311550
 
-35	304474
+35 -	304474
 
-36	298749
+36 -	298749
 
-34	290837
+34 -	290837
 
 ...	...
 
-84	945
+84 -	945
 
-85	787
+85 -	787
 
-82	700
+82 -	700
 
-83	678
+83	- 678
 
-88	51
+88 -	51
 
 RESULT:
 
@@ -376,13 +398,13 @@ RESULT:
 
 CREDIT SCORE BY GEOGRAPHY	
 
-Geography	CreditScore
+Geography    -	CreditScore
 
-France	         3256899
+France	  -       3256899
 
-Germany           1633923
+Germany   -        1633923
 
-Spain	          161268
+Spain	   -       161268
 
 RESULT:France has the highest creditscore among the three locations,Germany and Spain share similar values,with Germany slightly higher.
 
@@ -391,11 +413,11 @@ RESULT:France has the highest creditscore among the three locations,Germany and 
 
 CREDIT SCORE BY GENDER	
 
-Gender	CreditScore
+Gender	- CreditScore
 
-Male	3547887
+Male -	3547887
 
-Female	2955615
+Female -	2955615
 
 RESULT:Male customers have higher percentage of creditscores(54.6%),compared to the female customers(45.4%) .
 
@@ -404,28 +426,28 @@ RESULT:Male customers have higher percentage of creditscores(54.6%),compared to 
 
 ESTIMATED SALARY BY AGE
 
-Age	EstimatedSalary
+Age	- EstimatedSalary
 
-37	47,111,581.96
+37 -	  47,111,581.96
 
-40	47,103,438.57
+40 - 	47,103,438.57
 
-38	46,233,241.66
+38 -   	46,233,241.66
 
-35	45,997,974.90
+35  - 	45,997,974.90
 
-34	45,053,137.92
+34  -	45,053,137.92
 ...	...
 
-81	227,455.83
+81	 - 227,455.83
 
-82	182,055.36
+82 - 	182,055.36
 
-85	116,537.96
+85 - 	116,537.96
 
-83	92,934.41
+83	- 92,934.41
 
-88	52,952.24
+88	 -52,952.24
 
 RESULT:
 
@@ -440,13 +462,13 @@ Middle adults in their productive years tend to have higher earning potential,un
 
 BALANCE DISTRIBUTION BY GEOGRAPHY	
 
-Geography	Balance
+Geography	 - Balance
 
-France	      311,332,479.49
+France	    -  311,332,479.49
 
-Germany	       300,261,511.95
+Germany	   -    300,261,511.95
 
-Spain	       153,003,358.59
+Spain	     -  153,003,358.59
 
 RESULT:France has the highest balance in total,followed closely by Germany.Spain has the lowest balance in total.
 
@@ -455,30 +477,29 @@ RESULT:France has the highest balance in total,followed closely by Germany.Spain
 
 BALANCE DISTRIBUTION BY AGE	
 
-Age	Balance
+Age -	Balance
 
-37	38,266,130.63
+37 - 	38,266,130.63
 
+35  -	36,692,532.78
 
-35	36,692,532.78
+38  -	35,905,029.90
 
-38	35,905,029.90
+33	  - 33,790,452.49
 
-33	33,790,452.49
-
-40	33,275,087.69
+40  - 	33,275,087.69
 
 ...	...
 
-81	122,029.15
+81	-  122,029.15
 
-80	0.00
+80  -	0.00
 
-82	0.00
+82  -	0.00
 
-85	0.00
+85	 - 0.00
 
-88	0.00
+88  - 	0.00
 
 RESULT:The customer with the highest balance is 37 years old
 
@@ -488,13 +509,13 @@ RESULT:The customer with the highest balance is 37 years old
 
 ACTIVE MEMBER DISTRIBUTION BY GENDER
 
-IsActiveMember	No	Yes
+IsActiveMember-   	No	  -Yes
 
 Gender		
 
-Female	       2259	 2282
+Female	      -    2259	-  2282
 
-Male	       2589	 2867
+Male	     -      2589	-    2867
 
 RESULT:
 
@@ -510,9 +531,9 @@ CHURN RATE ANALYSIS
 
 Exited
 
-No     7960
+No    - 7960
 
-Yes    2037
+Yes  -  2037
 
 RESULT:
 
@@ -527,13 +548,16 @@ RESULT:
 
 CHURN RATE BY GENDER
 
-Gender	       Exited	
+Gender	   -    Exited	
 
-Female	  No   3402
-          Yes  1139
+Female	 - No  - 3402
+     
+        -  Yes - 1139
 
-Male	  No   4558
-          Yes  898
+Male	   - No  - 4558
+        
+        
+       - Yes - 898
 
 RESULT:Female customers(1139) have exited the bank more than male customers(898)
 
@@ -542,16 +566,19 @@ RESULT:Female customers(1139) have exited the bank more than male customers(898)
 
 CHURN RATE BY GEOGRAPHY	
 
-Geography	       Exited	
+Geography	   -    Exited	
 
-France	    No	         4203
-            Yes 	 810
+France	    No	 -        4203
+           
+            Yes -	       810
 
-Germany     No	         1694
-            Yes  	 814
+Germany     No	  -       1694
+            
+            Yes      - 	   814
 
-Spain	    No	        2063
-            Yes	         413
+Spain	       No	     -   2063
+           
+            Yes	     -    413
 
 
 RESULT::Germany has the highest number of churned customers(814),followed closely by France(810).Spain has the lowest number of churned customers(413).
@@ -562,26 +589,26 @@ RESULT::Germany has the highest number of churned customers(814),followed closel
 
 CHURN RATE BY CREDIT SCORE
 
-CreditScore     Exited		
-850	         233
+CreditScore   -  Exited		
+850	    -          233
 
-678  	          63
+678  	  -        63
 
-655	          54
+655	    -      54
 
-705	          53
+705	   -       53
 
-667	          53
+667	    -      53
 ...	...
-441	          1
+441	    -      1
 
-440	          1
+440	     -     1
 
-423	          1
+423	    -      1
 
-424	          1
+424	     -     1
 
-358	          1
+358	     -     1
 
 RESULT:This is a notable trend of high creditscore customers exiting the bank.This needs to be investigated.
 
@@ -590,11 +617,11 @@ RESULT:This is a notable trend of high creditscore customers exiting the bank.Th
 
 CHURN RATE BY CREDIT CARD OWNED
 
-HasCrCard	Exited
+HasCrCard	  -    Exited
 
-Yes	        5149
+Yes	   -     5149
 
-No	        4848
+No	  -      4848
 
 RESULT:Slightly more exited customers have credit cards,and approximately 50% of exited customers have credit cards
 
@@ -604,28 +631,37 @@ RESULT:Slightly more exited customers have credit cards,and approximately 50% of
 
 CHURN RATE BY BALANCE DISTRIBUTION
 
-Balance      	  Exited
+Balance    -  	  Exited
 
-0.00	            3616
+0.00	    -        3616
 
-130,170.82            2
 
-105,473.74	     2
+130,170.82   -     2
 
-128,793.63	     1
 
-132,217.45	     1
+105,473.74	 -    2
+
+
+128,793.63	 -    1
+
+
+132,217.45	  -   1
 ...	...
 
-107,106.33	     1
 
-107,104.50	     1
+107,106.33	  -   1
 
-107,073.27	     1
 
-107,065.31	     1
+107,104.50	 -    1
 
-250,898.09	     1
+
+107,073.27	  -   1
+
+
+107,065.31	 -    1
+
+
+250,898.09	 -    1
 
 
 RESULT:A substantial number of customers(3616) with 0 account balance have exited the bank,while few customers with high account balances have exited the bank.
@@ -637,29 +673,29 @@ RESULT:A substantial number of customers(3616) with 0 account balance have exite
 
 CHURN RATE BY AGE GRADE
 
-Age	       Exited	
+Age	   -    Exited	
 
-37	        478
+37	   -     478
 
-38	        477
+38	   -     477
 
-35	        474
+35	   -     474
 
-36              456
+36    -      456
 
-34	        447
+34	   -     447
 ...	...
 
-92	        2
+92	  -      2
 
 
-82	        1
+82	    -    1
 
-83	        1
+83	   -     1
 
-85	        1
+85	   -     1
 
-88	        1
+88	    -    1
 
 
 RESULT:Middle aged customers(34-38 years)have higher exit rates,while older customers(82-92 years) have 

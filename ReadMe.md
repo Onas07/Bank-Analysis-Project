@@ -43,7 +43,7 @@ Germany	      2508
 Spain	      2476
 RESULT:France has the highest customer distribution,Germany and Spain has similar values with Germany slightly higher.
 
-![](Geography distribution of customers.png)
+![](Images/Geography_distribution_of_customers.png)
 
 
 GENDER DISTRIBUTION	
@@ -52,7 +52,7 @@ Female	4541
 Male	5456
 RESULT:Male customers have a higher percentage of population(55%) than female customers(45%).
 
-![](Gender distribution of customers.png)
+![]('Genderdistribution of customers.png')
 
 
 AGE DISTRIBUTION	
@@ -70,7 +70,7 @@ Age	CustomerId
 88	1
 RESULT:The highest number of customers is between ages 34-37 years, while age 88-92 have the least population.
 
-![](Age distribution of customers.png)
+![]('Age distribution of customers.png')
 
 
 WHICH GEOGRAPHICAL LOCATION HAS THE HIGHEST CREDIT SCORE?	
@@ -80,7 +80,7 @@ Germany	     651.48
 Spain	     651.32
 RESULT:Based on the above analysis,by average Germany and Spain have the highest credit scores, followed closely by France
 
-![](Geography distribution of credit score.png)
+![]('Geography distribution of credit score.png')
 
 
 WHICH GENDER HAS THE HIGHEST BALANCE?
@@ -89,7 +89,7 @@ Female	343,579,164.57
 Male	421,018,185.46
 RESULT: The male gender has a higher account balance compared to the females.
 
-![](Balance distribution of customers.png)
+![]('Balance distribution of customers.png')
 
 
 WHAT IS THE ESTIMATED SALARY BY GENDER AND GEOGRAPHY?		                  
@@ -102,7 +102,7 @@ Male	France	                 275,779,717.12
          Spain	                136,514,723.55
 RESULT:Male customers have higher estimated salaries than female customers in all geographical locations.
 
-![](Estimated salary by gender and geography.png)
+![]('Estimated salary by gender and geography.png)
 
 
 CUSTOMER ENGAGEMENT PATTERN
@@ -114,7 +114,7 @@ Yes    5149
 No     4848
 RESULT:From our analysis,slightly more than half of the customers have credit cards ,however there is a relatively small difference between credit card owners and non owners.
 
-![](credit card distribution.png)
+![]('credit card distribution.png')
 
 
 NUMBER OF PRODUCTS DISTRIBUTION BY TENURE	
@@ -132,7 +132,7 @@ Tenure	NumOfProducts
 0	        413
 RESULT:New customers (0years) have the lowest number of products(413),while customers with one and two years tenure own the highest number of products
 
-![](relationship between tenure and number of products.png)
+![]('relationship between tenure and number of products.png')
 
 
 CREDIT CARD DISTRIBUTION BY TENURE	
@@ -154,7 +154,7 @@ RESULT:
 3. potential churn or dissatifcation with existing credit cards.
 4. New customers(oyears) tenure have the lowest demand for credit cards:This is expected as new customers may not yet have explored various credit card options,or may have not established credit history,or maybe cautious in applying for credit cards
 
-![](credit card by tenure.png)
+![]('credit card by tenure.png')
 
 
 COUNT OF ACTIVE MEMBERS
@@ -163,7 +163,7 @@ Yes    5149
 No     4848
 RESULT:The number of active members(5149) is slightly higher than non active members(4848).The difference is approximately 301
 
-![](percentage of active members.png)
+![]('percentage of active members.png')
 
 
 ACTIVE MEMBER DISTRIBUTION BY TENURE	
@@ -186,7 +186,7 @@ RESULT:
 4. New members account for the smallest proportion(413).
 
 
-![](active member by tenure.png)
+![]('active member by tenure.png')
 
 
 BALANCE DISTRIBUTION BY TENURE	
@@ -208,7 +208,7 @@ RESULT:
 3.Customers with 0 and 10 years have the lowest account balance.   
     Longer tenure customers tend to acquire more wealth and hold more products,however the relationship is not entirely linear because customers with 10 years tenure have surprisingly low balances.
 
-![](balance distribution over time.png)
+![]('balance distribution over time.png')
 
 
 FINANCIAL PERFORMANCE ANALYSIS
@@ -229,7 +229,7 @@ RESULT:
 1.Middle aged individuals(34-38) have higher credit scores,while older adults (82-88) have lower credit scores.
 2.Credit score peak around mid-life(34-38) and decline with age.
 
-![](credit score distribution.png)
+![]('credit score distribution.png')
 
 
 CREDIT SCORE BY GEOGRAPHY	
@@ -239,7 +239,7 @@ Germany 	1633923
 Spain	    161268
 RESULT:France has the highest creditscore among the three locations,Germany and Spain share similar values,with Germany slightly higher.
 
-![](credit score by geography.png)
+![]('credit score by geography.png')
 
 
 CREDIT SCORE BY GENDER	
@@ -248,7 +248,7 @@ Male	3547887
 Female	2955615
 RESULT:Male customers have higher percentage of creditscores(54.6%),compared to the female customers(45.4%) .
 
-![](credit score by gender.png)
+![]('credit score by gender.png')
 
 
 ESTIMATED SALARY BY AGE
@@ -268,7 +268,7 @@ RESULT:
 Middle aged individuals(34-40) have high estimated salaries,while older adults (81-88) have lower estimated salaries.
 Middle adults in their productive years tend to have higher earning potential,unlike older adults who are likely retired or semi retired.
 
-![](Estimated salary by age.png)
+![]('Estimated salary by age.png')
 
 
 BALANCE DISTRIBUTION BY GEOGRAPHY	
@@ -278,7 +278,7 @@ Germany	300,261,511.95
 Spain	153,003,358.59
 RESULT:France has the highest balance in total,followed closely by Germany.Spain has the lowest balance in total.
 
-![](Balance distribution by geography.png)
+![]('Balance distribution by geography.png')
 
 
 BALANCE DISTRIBUTION BY AGE	
@@ -296,7 +296,7 @@ Age	Balance
 88	0.00
 RESULT:The customer with the highest balance is 37 years old
 
-![](balance by age.png)
+![]('balance by age.png')
 
 
 
@@ -309,7 +309,7 @@ RESULT:
 1.Male customers dominate both active(55.7%) and inactive(53.4%) segments.
 2.Female customers makeup a significant proportion of both active and inactive segment.
 
-![](Active member distribution by gender.png)
+![]('Active member distribution by gender.png')
 
 
 CHURN RATE ANALYSIS
@@ -320,7 +320,7 @@ RESULT:
 1.A significant minority of customers(20%) have exited the bank,indicating room for improvement in customer retention.
 2.While 80% of customers remains active suggesting a strong customer base.
 
-![](Churn analysis.png)	
+![]('Churn analysis.png')	
 
 
 CHURN RATE BY GENDER

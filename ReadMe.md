@@ -1,6 +1,6 @@
  PROBLEM STATEMENT
 
-"Apex Bank seeks to optimize services and retain customers by analyzing demographic and financial chacacteristics 
+"Apex Bank seeks to optimize services and retain customers by analyzing demographic and financial characteristics 
 of its customers to inform effective decision making.
 
 

@@ -1,7 +1,6 @@
  PROBLEM STATEMENT
 
 "Apex Bank seeks to optimize services and retain customers by analyzing demographic and financial chacacteristics 
-
 of its customers to inform effective decision making.
 
 
@@ -59,9 +58,14 @@ DATA DICTIONARY
 
  
 
+
+
 1-DEMOGRAPHIC ANALYSIS:
 
+
 DISTRIBUTION OF CUSTOMERS BASED ON GEOGRAPHY , GENDER AND AGE:
+
+
 
 GEOGRAPHY DISTRIBUTION	       	
 
@@ -116,7 +120,6 @@ RELATIONSHIP BETWEEN CUSTOMER'S TENURE AND BANK'S PRODUCTS:
 CREDIT CARD DISTRIBUTION
 
 RESULT:From our analysis,slightly more than half of the customers have credit cards ,however there is a relatively 
-
 small difference between credit card owners and non owners.
 
 ![](Images/credit_card_distribution.png)
@@ -124,8 +127,7 @@ small difference between credit card owners and non owners.
 
 NUMBER OF PRODUCTS DISTRIBUTION BY TENURE	
 
-RESULT:New customers (0years) own the lowest number of products(413),while customers with one and two years tenure 
-
+RESULT:New customers (0years) own the lowest number of products,while customers with one and two years tenure 
 own the highest number of products
 
 ![](Images/relationship_between_tenure_and_number_of_products.png)
@@ -135,11 +137,9 @@ CREDIT CARD DISTRIBUTION BY TENURE
 
 RESULT:
 
-1. Highest demand for credit card are from customers (1-2years):This suggests that new customers are more likely to apply for credit cards possibly due to initial financial needs,building credit history and attractive promotional offers
+1. Highest demand for credit card are from customers (1-2years):This suggests that new customers are more likely to apply for credit cards possibly due to initial financial needs,building credit history and attractive promotional offers.
 
-2. There is a decline in credit card ownership among long term customers:This could indicate-customer's loyalty and stability,reducing the need for new cards,changing financial priorities(e.g mortgage or family).
-
-3. potential churn or dissatifcation with existing credit cards.
+2. There is a decline in credit card ownership among long term(10 years) customers:This could indicate-customer's loyalty and stability,reducing the need for new cards,changing financial priorities(e.g mortgage or family) and Potential churn or dissatifcation with existing credit cards.
 
 4. New customers(oyears) tenure have the lowest demand for credit cards:This is expected as new customers may not yet have explored various credit card options,or may have not established credit history,or maybe cautious in applying for credit cards
 
@@ -148,7 +148,7 @@ RESULT:
 
 COUNT OF ACTIVE MEMBERS
 
-RESULT:The number of active members(5149) is slightly higher than non active members(4848).The difference is approximately 301
+RESULT:The percentage of active members is slightly higher than non active members.
 
 ![](Images/percentage_of_active_members.png)
 
@@ -177,9 +177,7 @@ RESULT:
 
 2. Customers between(3-9) years tenure have relatively high balances.
 
-3.Customers with 0 and 10 years have the lowest account balance.   
-
-4.Longer tenure customers tend to acquire more wealth and hold more products,however the relationship is not entirely linear because customers with 10 years tenure have surprisingly low balances.
+3.Customers with 0 and 10 years have the lowest account balance:Longer tenure customers tend to acquire more wealth and hold more products,however the relationship is not entirely linear because customers with 10 years tenure have surprisingly low balances.  
 
 ![](Images/balancedistribution_over_time.png)
 
@@ -198,7 +196,6 @@ RESULT:
 CREDIT SCORE BY GEOGRAPHY	
 
 RESULT:France has the highest creditscore among the three locations,Germany and Spain share similar values,with 
-
 Germany slightly higher.
 
 ![](Images/credit_score_by_geography.png)
@@ -206,7 +203,7 @@ Germany slightly higher.
 
 CREDIT SCORE BY GENDER	
 
-RESULT:Male customers have higher percentage of creditscores(54.6%),compared to the female customers(45.4%) .
+RESULT:Male customers have higher percentage of creditscores compared to  female customers .
 
 ![](Images/credit_score_by_gender.png)
 
@@ -215,9 +212,8 @@ ESTIMATED SALARY BY AGE
 
 RESULT:
 
-1.Middle aged individuals(34-40) have higher estimated salaries,while older adults (81-88) have lower estimated salaries.
+1.Middle aged individuals(34-40) have higher estimated salaries,while older adults (81-88) have lower estimated salaries.Middle aged adults in their productive years tend to have higher earning potential,unlike older adults who are likely retired or semi retired.
 
-2.Middle aged adults in their productive years tend to have higher earning potential,unlike older adults who are likely retired or semi retired.
 
 ![](Images/Estimated_salary_by_age.png)
 
@@ -231,7 +227,7 @@ RESULT:France has the highest balance in total,followed closely by Germany.Spain
 
 BALANCE DISTRIBUTION BY AGE	
 
-RESULT:The customer with the highest balance is 37 years old
+RESULT:customers with the highest balance are between (34-37) years while customwers with the lowest balance are between(80-88) years.
 
 ![](Images/balance_by_age.png)
 
@@ -241,7 +237,7 @@ ACTIVE MEMBER DISTRIBUTION BY GENDER
 
 RESULT:
 
-1.Male customers dominate both active(55.7%) and inactive(53.4%) segments.
+1.Male customers dominate both active and inactive segments.
 
 2.Female customers makeup a significant proportion of both active and inactive segment.
 
@@ -261,14 +257,14 @@ RESULT:
 
 CHURN RATE BY GENDER
 
-RESULT:Female customers(1139) have exited the bank more than male customers(898)
+RESULT:A higher percentage (11.4%) of female customers have exited the bank more than male customers(9%)
 
 ![](Images/churn_rate_by_gender.png)
 
 
 CHURN RATE BY GEOGRAPHY	
 
-RESULT::Germany has the highest number of churned customers(814),followed closely by France(810).Spain has the lowest number of churned customers(413).
+RESULT::Germany has the highest number of churned customers,followed closely by France.Spain has the lowest number of churned customers.
 
 ![](Images/churn_rate_by_geography.png)
 
@@ -320,8 +316,8 @@ CUSTOMER SEGMENTATION ANALYSIS
 
  RECOMMENDATION
 1. Germany and France has a high customer exit rate that requires urgent attention to keeep customers and grow revenue.
-2. Germany and Spain have high average credit scores and can boost growth by offering premium services to high credit customers e.g higher interest rates and copying France's successful strategies and adapting.
-3. Investigate reasons behind female customer's high exist rates and develop initiatives that cater to both male and female financial needs.
+2. Germany and Spain has high average credit scores and can boost growth by offering premium services to high credit customers e.g higher interest rates and copying France's successful strategies and adapting.
+3. Investigate reasons behind female customer's higher exist rates and develop initiatives that cater to both male and female financial needs.
 4. Low account balances and credit scores among (0 and 10 years) customers may explain their low credit card demand.Further investigation is recommended to confirm this analysis
 5. Apex bank should offer persoalized banking services and exclusive benefits to customers aged 34-38 with high credit scores,salaries and balances to increase loyalty and retention.
 6. Inactive Accounts: Many exited customers didn't utilize their accounts.Reasons behind inactive accounts should be investigated if lack of usage led to exit.

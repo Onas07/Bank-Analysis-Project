@@ -30,31 +30,31 @@ DATA DICTIONARY
 	
  Field	                -                 Description
 
-0	CustomerId      -          A unique identifier for each customer
+0.	CustomerId      -          A unique identifier for each customer
 
-1	Surname         -          The customer's last name
+1.	Surname         -          The customer's last name
 
-2	CreditScore      -         A numerical value representing the customer's the customer's credit score.
+2.	CreditScore      -         A numerical value representing the customer's the customer's credit score.
 
-3	Geography        -         The country where the customer resides (France,Spain,Germany).
+3.	Geography        -         The country where the customer resides (France,Spain,Germany).
 
-4	Gender	         -         The customer's gender (Male or Female)
+4.	Gender	         -         The customer's gender (Male or Female)
 
-5	Age	         -         The customer's age
+5.	Age	         -         The customer's age
 
-6	Tenure	         -         The number of years the customer has been with the bank
+6.	Tenure	         -         The number of years the customer has been with the bank
 
-7	Balance          -     	   The customer's account balance
+7.	Balance          -     	   The customer's account balance
 
-8	NumOfProducts	  -        The number of bank products the customer uses e.g(savings account,credit card)
+8.	NumOfProducts	  -        The number of bank products the customer uses e.g(savings account,credit card)
 
-9	HasCrCard	   -       Whether the customer has a credit card (1 = yes,0=no)
+9.	HasCrCard	   -       Whether the customer has a credit card (1 = yes,0=no)
 
-10	IsActiveMember     -  	   Whether the customer is an active member (1 =yes,0=no)
+10.	IsActiveMember     -  	   Whether the customer is an active member (1 =yes,0=no)
 
-11	EstimatedSalary	   -       The estimated salary of the customer
+11.	EstimatedSalary	   -       The estimated salary of the customer
 
-12	Exited             - 	    Whether the customer has churned (1 = yes, 0 = no)
+12.	Exited             - 	    Whether the customer has churned (1 = yes, 0 = no)
 
  
 
@@ -119,8 +119,7 @@ RELATIONSHIP BETWEEN CUSTOMER'S TENURE AND BANK'S PRODUCTS:
 
 CREDIT CARD DISTRIBUTION
 
-RESULT:From our analysis,slightly more than half of the customers have credit cards ,however there is a relatively 
-small difference between credit card owners and non owners.
+RESULT:In terms of credit card distributiom,slightly more than half of the customers have credit cards ,however there is a relatively small difference between credit card owners and non credit card owners.
 
 ![](Images/credit_card_distribution.png)
 
@@ -137,11 +136,11 @@ CREDIT CARD DISTRIBUTION BY TENURE
 
 RESULT:
 
-1. Highest demand for credit card are from customers (1-2years):This suggests that new customers are more likely to apply for credit cards possibly due to initial financial needs,building credit history and attractive promotional offers.
+1. Highest demand for credit card are from customers with (1-2years) tenure.
 
-2. There is a decline in credit card ownership among long term(10 years) customers:This could indicate-customer's loyalty and stability,reducing the need for new cards,changing financial priorities(e.g mortgage or family) and Potential churn or dissatifcation with existing credit cards.
+2. There is a decline in credit card ownership among long term(10 years) customers.
 
-4. New customers(oyears) tenure have the lowest demand for credit cards:This is expected as new customers may not yet have explored various credit card options,or may have not established credit history,or maybe cautious in applying for credit cards
+4. New customers(oyear) tenure have the lowest demand for credit cards.
 
 ![](Images/credit_card_by_tenure.png)
 
@@ -177,7 +176,7 @@ RESULT:
 
 2. Customers between(3-9) years tenure have relatively high balances.
 
-3.Customers with 0 and 10 years have the lowest account balance:Longer tenure customers tend to acquire more wealth and hold more products,however the relationship is not entirely linear because customers with 10 years tenure have surprisingly low balances.  
+3.Customers with 0 and 10 years have the lowest account balance.  
 
 ![](Images/balancedistribution_over_time.png)
 
@@ -195,7 +194,7 @@ RESULT:
 
 CREDIT SCORE BY GEOGRAPHY	
 
-RESULT:France has the highest creditscore among the three locations,Germany and Spain share similar values,with 
+RESULT:France has the highest creditscore among the three locations.Germany and Spain share similar values,with 
 Germany slightly higher.
 
 ![](Images/credit_score_by_geography.png)
@@ -212,8 +211,7 @@ ESTIMATED SALARY BY AGE
 
 RESULT:
 
-1.Middle aged individuals(34-40) have higher estimated salaries,while older adults (81-88) have lower estimated salaries.Middle aged adults in their productive years tend to have higher earning potential,unlike older adults who are likely retired or semi retired.
-
+1.Middle aged individuals(34-40) have higher estimated salaries,while older adults (81-88) have lower estimated salaries.
 
 ![](Images/Estimated_salary_by_age.png)
 
@@ -299,28 +297,50 @@ RESULT:Middle aged customers(34-38 years)have higher exit rates,while older cust
 
 CUSTOMER SEGMENTATION ANALYSIS
      The Following insights were drawn from analyzing the data:-
+
 1. France has the highest customer distribution,creditscore and balance,while Germany and Spain share similar values with Germany slightly higher than Spain.In contrast,France has the lowest credit score by average with Germany and Spain topping the charts.
+
 2. Germany has the highest number of churned customers(814),followed closely by France(810).Spain has the lowest number of churned customers(413).
+
 3. Male customers leads with the highest etsimated salary,balance,population and creditscore than female customers.
+
 4. We have a higher percentage of churned female customers,although the difference is minimal.
+
 5. Our analysis also suggests that we have a higher percentage of active and inactive male customers than female customers.
+
 6. The greater population of our customer base is between ages (34 - 37 years),while ages 88-92 has the least population.
+
 7. Highest demand for credit cards are from customers with (1-2years) tenure,on the other hand new customers(0 year) tenure have the lowest demand for credit cards.There is a decline in card ownership by long term customers(10 years).
+
 8. Slightly more than half(51.5%)  of the entire population of customers own credit cards,but there is a relatively small difference between credit card owners and non card owners(48.5%).
-9. Customers with (1-2 years) tenure has the highest account balances, number of products and credit scores.While it's the opposite for (0 and 10 years) customers.
+
+9. Customers with (1-2 years) tenure have the highest  balance, number of products and credit scores.While it's the opposite for (0 and 10 years) customers.
+
 10. Middle aged customers(34-38 years) have higher credit scores and estimated salaries while older adults (82-88) years have lower credit scores and estimated salaries.
+
 11. A significant minority of customers(20%) have exited the bank,indicating room for improvement in customer retention,while 80% of customers remains active suggesting a strong customer base.
+
 12. There is a notable trend of high credit score customers exiting the bank that needs to be investigated.
+
 13. Middle aged customers(34-37) years have higher exit rate, while older customers(82-92) years have significantly lower exit rates.
+
 14. A substantial amount of exited customers(3616) have 0 account balance while approximately 50% of exited customers have credit cards. 
 
  RECOMMENDATION
-1. Germany and France has a high customer exit rate that requires urgent attention to keeep customers and grow revenue.
-2. Germany and Spain has high average credit scores and can boost growth by offering premium services to high credit customers e.g higher interest rates and copying France's successful strategies and adapting.
+
+1. Germany and France have a high customer exit rate that requires urgent attention to keeep customers and grow revenue.
+
+2. Germany and Spain have high average credit scores and can boost growth by offering premium services to high credit customers e.g higher interest rates and copying France's successful strategies and adapting.
+
 3. Investigate reasons behind female customer's higher exist rates and develop initiatives that cater to both male and female financial needs.
+
 4. Low account balances and credit scores among (0 and 10 years) customers may explain their low credit card demand.Further investigation is recommended to confirm this analysis
-5. Apex bank should offer persoalized banking services and exclusive benefits to customers aged 34-38 with high credit scores,salaries and balances to increase loyalty and retention.
+
+5. Apex bank should offer personalized banking services and exclusive benefits to customers aged 34-38 with high credit scores,salaries and balances to increase loyalty and retention.
+
 6. Inactive Accounts: Many exited customers didn't utilize their accounts.Reasons behind inactive accounts should be investigated if lack of usage led to exit.
+
 7. Credit Card Usage:Half of exited customers had credit cards indicating unmet needs or dissatifaction.Credit card usage patterns among exited customers should be analyzed.Determine if credit card issues led to exit.
+
 8. There is a notable trend of high credit score customers exiting the bank and potential reasons could be :- better offers from competitors e.g lower interest rates,unmet expectations for premium services or recognition etc.To retain customers and increase growth, Apex bank should check what competitors offer, to prevent customers from switching to better ideas,offer special benefits to reward loyal customers, build trust and foster relationships with customers and  introduce online banking services if none.
     In conclusion, by addressing these issues Apex Bank can:Prevent churn, build customer loyalty,retain high value customers and maintain a strong customer base.  
